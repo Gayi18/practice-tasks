@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Table</title>
+    <style>
+        body {
+            background-color: rgb(159, 175, 170);
+            font-size: 16px;
+        }
+
+        table {
+            border-color: coral;
+            border: 1px;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid rgb(144, 140, 140);
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nested Table</h1>
+    <table>
+        <tr>
+            <td>one</td>
+            <td>two</td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>three</td>
+                        <td>four</td>
+                    </tr>
+                    <tr>
+                        <td>five</td>
+                    </tr>
+                    <td>
+                        <tr>
+                            <td>
+                                <table>
+
+                                   <tr>
+                                       <td>six</td>
+                                       <td>seven</td>
+                                    </tr>
+                                    <tr>
+                                       <td>eight</td>
+                                       <td>nine</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </td>
+                    <tr>
+                        <td>ten</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
